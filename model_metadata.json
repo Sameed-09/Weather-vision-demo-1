@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.9275,
+  "f1": 0.9139,
+  "roc_auc": 0.9821,
+  "train_records": 4800,
+  "test_records": 1200,
+  "total_records": 6000,
+  "bust_rate": 0.4112,
+  "features": [
+    "lead_day",
+    "temperature_error",
+    "rainfall_error",
+    "wind_speed_error",
+    "pressure_error",
+    "humidity_error",
+    "ensemble_spread"
+  ],
+  "model": "RandomForestClassifier",
+  "prototype_note": "Synthetic training data; replace with matched forecast-observation archives for operational use."
+}
