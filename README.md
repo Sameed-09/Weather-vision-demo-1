@@ -1,18 +1,6 @@
 # WEATHER-VISION | SIH26079
 
-Cleaned Round-2 prototype for AI-based forecast bust detection and early warning.
-
-## What changed
-
-- Separated dashboard, weather service, data generation and model training.
-- Removed repeated subprocess/API calls from the dashboard.
-- Added HTTP connection pooling, retries and short timeouts.
-- Added cached geocoding and cached forecast retrieval.
-- Replaced the original 10-row toy training set with a larger synthetic prototype dataset.
-- Added a train/test split and evaluation metrics.
-- Added model metadata.
-- Removed dashboard emojis and development clutter.
-- Added explicit prototype limitations around live uncertainty proxies.
+Prototype for AI-based forecast bust detection and early warning.
 
 ## Project structure
 
